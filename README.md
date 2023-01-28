@@ -11,7 +11,7 @@ ip段信息取自 [china-ip-list](https://github.com/mayaxcn/china-ip-list)
 /file remove [find name="CN.rsc"]
 /tool fetch url="https://cdn.jsdelivr.net/gh/fallssyj/rosCNRoute@main/CN.rsc"
 :if ([:len [/file find name=CN.rsc]] > 0) do={
-/ip firewall address-list remove [find comment="china-ip"]
+/ip firewall address-list remove [find comment="CN"]
 /import CN.rsc
 }
 ```
