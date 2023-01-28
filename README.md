@@ -9,9 +9,9 @@ ip段信息取自 [china-ip-list](https://github.com/mayaxcn/china-ip-list)
 **CN.rsc** 是往Firewall - address lists 里生ip段列表。
 ```
 /file remove [find name="CN.rsc"]
-/tool fetch url="https://cdn.jsdelivr.net/gh/GitHubd3b7c/chnroute@main/CN.rsc"
+/tool fetch url="https://cdn.jsdelivr.net/gh/fallssyj/rosCNRoute@main/CN.rsc"
 :if ([:len [/file find name=CN.rsc]] > 0) do={
-/ip firewall address-list remove [find comment="AS4809"]
+/ip firewall address-list remove [find comment="china-ip"]
 /import CN.rsc
 }
 ```
