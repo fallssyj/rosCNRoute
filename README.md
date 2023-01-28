@@ -17,5 +17,3 @@ ip段信息取自 [china-ip-list](https://github.com/mayaxcn/china-ip-list)
 ```
 
 用于Firewall - mangle页，通过dst-addrss= 引用
-
-https://cdn.jsdelivr.net/gh/fallssyj/rosCNRoute@main/CN.rsc
