@@ -6218,6 +6218,7 @@ add list=china-ip address=157.10.118.0/23 comment=CN
 add list=china-ip address=157.10.130.0/23 comment=CN
 add list=china-ip address=157.10.218.0/23 comment=CN
 add list=china-ip address=157.10.220.0/23 comment=CN
+add list=china-ip address=157.10.246.0/23 comment=CN
 add list=china-ip address=157.18.0.0/16 comment=CN
 add list=china-ip address=157.61.0.0/16 comment=CN
 add list=china-ip address=157.119.8.0/22 comment=CN
