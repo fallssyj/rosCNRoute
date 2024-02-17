@@ -7,6 +7,10 @@ ip段信息取自 [china-ip-list](https://github.com/mayaxcn/china-ip-list)
 策略路由分流的实现方法：
 
 **CN.rsc** 是往Firewall - address lists 里生ip段列表。
+用于Firewall - mangle页，通过dst-addrss= 引用
+
+脚本引用 System - Scripts
+
 ```
 /file remove [find name="CN.rsc"]
 /tool fetch url="https://cdn.jsdelivr.net/gh/fallssyj/rosCNRoute@main/CN.rsc"
@@ -16,4 +20,3 @@ ip段信息取自 [china-ip-list](https://github.com/mayaxcn/china-ip-list)
 }
 ```
 
-用于Firewall - mangle页，通过dst-addrss= 引用
