@@ -6281,6 +6281,7 @@ add list=china-ip address=161.248.92.0/23 comment=CN
 add list=china-ip address=161.248.108.0/23 comment=CN
 add list=china-ip address=161.248.110.0/23 comment=CN
 add list=china-ip address=161.248.112.0/23 comment=CN
+add list=china-ip address=161.248.136.0/23 comment=CN
 add list=china-ip address=162.14.0.0/16 comment=CN
 add list=china-ip address=162.105.0.0/16 comment=CN
 add list=china-ip address=163.0.0.0/16 comment=CN
