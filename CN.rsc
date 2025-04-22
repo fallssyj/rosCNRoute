@@ -5300,7 +5300,6 @@ add list=china-ip address=113.130.112.0/21 comment=CN
 add list=china-ip address=113.132.0.0/14 comment=CN
 add list=china-ip address=113.136.0.0/13 comment=CN
 add list=china-ip address=113.192.40.0/23 comment=CN
-add list=china-ip address=113.192.56.0/23 comment=CN
 add list=china-ip address=113.194.0.0/15 comment=CN
 add list=china-ip address=113.197.100.0/22 comment=CN
 add list=china-ip address=113.200.0.0/15 comment=CN
