@@ -3642,7 +3642,6 @@ add list=china-ip address=103.115.148.0/22 comment=CN
 add list=china-ip address=103.115.248.0/22 comment=CN
 add list=china-ip address=103.116.40.0/22 comment=CN
 add list=china-ip address=103.116.64.0/22 comment=CN
-add list=china-ip address=103.116.72.0/22 comment=CN
 add list=china-ip address=103.116.76.0/22 comment=CN
 add list=china-ip address=103.116.92.0/22 comment=CN
 add list=china-ip address=103.116.120.0/22 comment=CN
