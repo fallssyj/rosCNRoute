@@ -18,10 +18,10 @@ done
 wget --no-check-certificate -c -O CNIPV6.txt https://ispip.clang.cn/all_cn_ipv6.txt
 
 {
-echo "/ip firewall address-list"
+echo "/ipv6 firewall address-list"
 
 for net in $(cat CNIPV6.txt) ; do
-  echo "add list=china-ip address=$net comment=CNIPV6"
+  echo "add list=china-ip address=$net comment=CN"
 done
 
 } > ../CNIPV6.rsc
