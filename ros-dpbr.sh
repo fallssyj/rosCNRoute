@@ -14,5 +14,18 @@ done
 
 } > ../CN.rsc
 
+
+wget --no-check-certificate -c -O CNIPV6.txt https://ispip.clang.cn/all_cn_ipv6.txt
+
+{
+echo "/ip firewall address-list"
+
+for net in $(cat CNIPV6.txt) ; do
+  echo "add list=china-ip address=$net comment=CNIPV6"
+done
+
+} > ../CNIPV6.rsc
+
+
 cd ..
 rm -rf ./pbr
