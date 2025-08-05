@@ -6555,7 +6555,6 @@ add list=china-ip address=202.8.4.0/23 comment=CN
 add list=china-ip address=202.8.12.0/24 comment=CN
 add list=china-ip address=202.8.24.0/24 comment=CN
 add list=china-ip address=202.8.77.0/24 comment=CN
-add list=china-ip address=202.8.120.0/22 comment=CN
 add list=china-ip address=202.8.128.0/19 comment=CN
 add list=china-ip address=202.8.192.0/20 comment=CN
 add list=china-ip address=202.9.32.0/24 comment=CN
