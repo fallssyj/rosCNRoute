@@ -211,6 +211,7 @@ add list=china-ip address=2401:fa00:40::/43 comment=CN
 add list=china-ip address=2402:840:d000::/46 comment=CN
 add list=china-ip address=2402:840:e000::/46 comment=CN
 add list=china-ip address=2402:840:f000::/38 comment=CN
+add list=china-ip address=2402:c60::/48 comment=CN
 add list=china-ip address=2402:1440::/32 comment=CN
 add list=china-ip address=2402:2000::/32 comment=CN
 add list=china-ip address=2402:20e0:f000::/48 comment=CN
@@ -1255,6 +1256,7 @@ add list=china-ip address=2a06:3603::/32 comment=CN
 add list=china-ip address=2a06:3604::/30 comment=CN
 add list=china-ip address=2a06:9f81:4600::/43 comment=CN
 add list=china-ip address=2a06:9f81:4640::/44 comment=CN
+add list=china-ip address=2a06:9f81:4660::/44 comment=CN
 add list=china-ip address=2a06:a005:260::/43 comment=CN
 add list=china-ip address=2a06:a005:280::/43 comment=CN
 add list=china-ip address=2a06:a005:2a0::/44 comment=CN
@@ -1289,7 +1291,6 @@ add list=china-ip address=2a0e:9b00::/29 comment=CN
 add list=china-ip address=2a0e:aa01:1fff::/48 comment=CN
 add list=china-ip address=2a0e:aa06::/40 comment=CN
 add list=china-ip address=2a0e:aa06:440::/48 comment=CN
-add list=china-ip address=2a0e:aa06:450::/44 comment=CN
 add list=china-ip address=2a0e:aa06:490::/44 comment=CN
 add list=china-ip address=2a0e:aa06:4e0::/44 comment=CN
 add list=china-ip address=2a0e:aa06:500::/44 comment=CN
@@ -1437,6 +1438,7 @@ add list=china-ip address=2a14:67c5:1900::/40 comment=CN
 add list=china-ip address=2a14:7580:9200::/40 comment=CN
 add list=china-ip address=2a14:7580:9400::/39 comment=CN
 add list=china-ip address=2a14:7580:9600::/46 comment=CN
+add list=china-ip address=2a14:7580:960c::/48 comment=CN
 add list=china-ip address=2a14:7580:d000::/37 comment=CN
 add list=china-ip address=2a14:7580:d800::/39 comment=CN
 add list=china-ip address=2a14:7580:e200::/40 comment=CN
