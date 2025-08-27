@@ -1423,6 +1423,7 @@ add list=china-ip address=2a14:67c1:b105::/48 comment=CN
 add list=china-ip address=2a14:67c1:b107::/48 comment=CN
 add list=china-ip address=2a14:67c1:b130::/46 comment=CN
 add list=china-ip address=2a14:67c1:b134::/47 comment=CN
+add list=china-ip address=2a14:67c1:b140::/48 comment=CN
 add list=china-ip address=2a14:67c1:b4a1::/48 comment=CN
 add list=china-ip address=2a14:67c1:b4a2::/48 comment=CN
 add list=china-ip address=2a14:67c1:b4c0::/45 comment=CN
